@@ -45,5 +45,5 @@ try:
 except Exception as E:
      print("\033[0;31mSomething Went Wrong")
      if (str(E) == "[Errno 2] No such file or directory: 'servers.txt'"):
-          print('There is no Servers.txt file')
+          print('There is no servers.txt file')
 
